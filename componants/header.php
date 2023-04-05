@@ -40,7 +40,7 @@ $_SESSION['user']['gender'] = "women";
         <nav>
             <img src="./file/img/MPT--logo.png" alt="">
             <div class="d-none d-md-block">A toi, voyageur aguéri !</div>
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center position-relative">
                 <?php
 
                 if (isset($_SESSION['user']['id'])) {
@@ -76,7 +76,7 @@ $_SESSION['user']['gender'] = "women";
                 <div class="menuIcone open"><i class="bi bi-three-dots"></i></div>
                 <div class="menuIcone close"><i class="bi bi-x-lg"></i></div>
             </div>
-            <ul>
+            <ul class="general">
                 <li class="deployed">
                     <div>
                         <a class="w-100" href="">
@@ -91,10 +91,13 @@ $_SESSION['user']['gender'] = "women";
                     </div>
                     <ul>
                         <a class="w-100" href="">
-                            <li>TEST</li>
+                            <li>Tous les voyages</li>
                         </a>
                         <a class="w-100" href="">
-                            <li>TEST2</li>
+                            <li>Les certifiés</li>
+                        </a>
+                        <a class="w-100" href="">
+                            <li>Les mieux notés</li>
                         </a>
                     </ul>
                 </li>
@@ -105,10 +108,13 @@ $_SESSION['user']['gender'] = "women";
                     </div>
                     <ul>
                         <a class="w-100" href="">
-                            <li>TEST</li>
+                            <li>Tous les articles</li>
                         </a>
                         <a class="w-100" href="">
-                            <li>TEST2</li>
+                            <li>Les certifiés</li>
+                        </a>
+                        <a class="w-100" href="">
+                            <li>Les mieux notés</li>
                         </a>
                     </ul>
                 </li>
@@ -119,13 +125,37 @@ $_SESSION['user']['gender'] = "women";
                     </div>
                     <ul>
                         <a href="">
-                            <li>TEST</li>
+                            <li>Mon espace</li>
                         </a>
                         <a href="">
-                            <li>TEST2</li>
+                            <li>Mes voyages</li>
+                        </a>
+                        <a href="">
+                            <li>Mes articles</li>
+                        </a>
+                        <a href="">
+                            <li>Ajouter du contenu</li>
                         </a>
                     </ul>
                 </li>
             </ul>
         </nav>
+        <div class="acountMenu">
+            <nav>
+                <ul>
+                    <a href="">
+                        <li>Modifier mes informations</li>
+                    </a>
+                    <a href="">
+                        <li>Identification et sécurité</li>
+                    </a>
+                    <a href="">
+                        <li>Visibilité de vos travaux</li>
+                    </a>
+                    <a href="">
+                        <li>Déconnexion</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
     </header>
