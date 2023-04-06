@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  padding-top: 60px;
 
   /* Déclaration des variables de couleurs */
   --darkBack: #292938;
@@ -20,6 +20,7 @@ header > nav {
   color: white;
   font-size: 1.2em;
   z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* STYLE DES ITEMS DE LA NAVBAR */
